@@ -1,7 +1,3 @@
-import styles from "./page.module.css";
-
 export default function Home() {
-  return (
-    <main className={styles.main}>Bienvenido al montar en monociclo!</main>
-  );
+  return <main>Bienvenido Montar en Monociclo!</main>;
 }
