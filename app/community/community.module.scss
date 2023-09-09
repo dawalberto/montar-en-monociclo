@@ -1,0 +1,7 @@
+@use "/styles/palettes/community.scss" as *;
+
+.body {
+	// 4.4 contrast
+	background-color: $color-community-1;
+	color: $color-community-4;
+}

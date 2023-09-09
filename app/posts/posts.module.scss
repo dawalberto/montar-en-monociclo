@@ -1,0 +1,11 @@
+@use "/styles/palettes/posts.scss" as *;
+
+.body {
+	// 5.5 contrast
+	background-color: $color-posts-1;
+	color: $color-posts-3;
+
+	// 3 contrast
+	// background-color: $color-posts-1;
+	// color: $color-posts-0;
+}
