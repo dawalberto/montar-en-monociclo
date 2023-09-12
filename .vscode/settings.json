@@ -17,5 +17,7 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"conventionalCommits.scopes": ["configuration"]
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	}
 }

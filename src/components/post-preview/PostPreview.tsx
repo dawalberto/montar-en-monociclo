@@ -1,7 +1,7 @@
 'use client'
 
 import { post } from '@/types'
-import { Image } from '.'
+import { Image } from '..'
 import { useRouter } from 'next/navigation'
 
 export default function PostPreview({ post }: { post: post }) {

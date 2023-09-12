@@ -1,3 +1,3 @@
-export * from './Navigation'
-export * from './Image'
-export * from './PostPreview'
+export * from './menu/Menu'
+export * from './image/Image'
+export * from './post-preview/PostPreview'

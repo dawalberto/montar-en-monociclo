@@ -1,18 +1,21 @@
 /* TODO - Check the correct breakpoints and stydy what would be a good max width for each */
+$medium-media-query: 700px;
+$large-media-query: 1120px;
+
 .body {
 	margin: 0 auto;
 	min-height: 100svh;
 }
 
 /* Tablet and Smaller Desktop */
-@media (width >= 700px) {
+@media (width >= $medium-media-query) {
 	.body {
 		max-width: 800px;
 	}
 }
 
 /* Large Desktop */
-@media (width >= 1120px) {
+@media (width >= $large-media-query) {
 	.body {
 		max-width: 900px;
 	}
