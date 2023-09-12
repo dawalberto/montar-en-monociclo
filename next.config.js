@@ -1,4 +1,5 @@
-import { join } from 'path'
+/* eslint-disable @typescript-eslint/no-var-requires */
+const path = require('path')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -6,8 +7,8 @@ const nextConfig = {
 		domains: ['cdn.sanity.io'],
 	},
 	sassOptions: {
-		includePaths: [join(__dirname, 'styles')],
+		includePaths: [path.join(__dirname, 'styles')],
 	},
 }
 
-export default nextConfig
+module.exports = nextConfig
