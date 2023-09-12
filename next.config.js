@@ -1,4 +1,4 @@
-const path = require('path')
+import { join } from 'path'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -6,8 +6,8 @@ const nextConfig = {
 		domains: ['cdn.sanity.io'],
 	},
 	sassOptions: {
-		includePaths: [path.join(__dirname, 'styles')],
+		includePaths: [join(__dirname, 'styles')],
 	},
 }
 
-module.exports = nextConfig
+export default nextConfig
