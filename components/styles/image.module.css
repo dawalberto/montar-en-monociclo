@@ -1,16 +1,16 @@
 .avatar-wrapper {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
 }
 
 .avatar-wrapper img {
-  margin-top: -1rem !important;
+	margin-top: -1rem !important;
 }
 
 .img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }

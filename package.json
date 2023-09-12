@@ -6,22 +6,31 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"format": "prettier --check --ignore-path .gitignore .",
+		"format:fix": "prettier --write --ignore-path .gitignore ."
 	},
 	"dependencies": {
-		"@portabletext/react": "^3.0.7",
-		"@sanity/client": "^6.4.9",
-		"@sanity/image-url": "^1.0.2",
+		"@portabletext/react": "3.0.7",
+		"@sanity/client": "6.4.9",
+		"@sanity/image-url": "1.0.2",
 		"@types/node": "20.5.9",
 		"@types/react": "18.2.21",
 		"@types/react-dom": "18.2.7",
-		"eslint": "8.48.0",
+		"eslint": "8.49.0",
 		"eslint-config-next": "13.4.19",
-		"groq": "^3.16.2",
+		"eslint-config-prettier": "9.0.0",
+		"groq": "3.16.2",
 		"next": "13.4.19",
+		"prettier": "3.0.3",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"sass": "^1.66.1",
+		"sass": "1.66.1",
 		"typescript": "5.2.2"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "6.7.0",
+		"@typescript-eslint/parser": "6.7.0",
+		"eslint-plugin-react": "7.33.2"
 	}
 }

@@ -1,12 +1,12 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
 const navigationItems = [
-	{ label: "Inicio", href: "/" },
-	{ label: "Posts", href: "/posts" },
-	{ label: "Próximamente", href: "/next-posts" },
-	{ label: "Comunidad", href: "/community" },
-];
+	{ label: 'Inicio', href: '/' },
+	{ label: 'Posts', href: '/posts' },
+	{ label: 'Próximamente', href: '/next-posts' },
+	{ label: 'Comunidad', href: '/community' },
+]
 
 export const Navigation = () => {
 	return (
@@ -17,5 +17,5 @@ export const Navigation = () => {
 				</li>
 			))}
 		</ul>
-	);
-};
+	)
+}

@@ -1,25 +1,19 @@
-"use client";
+'use client'
 
-import { post } from "@/types";
-import { Image } from ".";
-import { useRouter } from "next/navigation";
+import { post } from '@/types'
+import { Image } from '.'
+import { useRouter } from 'next/navigation'
 
 export default function PostPreview({ post }: { post: post }) {
-	const router = useRouter();
+	const router = useRouter()
 
-	const {
-		title = "",
-		mainImage = null,
-		slug,
-		_createdAt = "",
-		_updatedAt = null,
-	} = post;
+	const { title = '', mainImage = null, slug, _createdAt = '', _updatedAt = null } = post
 
 	const goToPost = () => {
 		if (slug) {
-			router.push(`/posts/${slug.current}`);
+			router.push(`/posts/${slug.current}`)
 		}
-	};
+	}
 
 	return (
 		<div onClick={goToPost}>
@@ -27,5 +21,5 @@ export default function PostPreview({ post }: { post: post }) {
 			<Image source={mainImage} />
 			<h1>{title}</h1>
 		</div>
-	);
+	)
 }
