@@ -2,7 +2,7 @@ import client from '@/client'
 import PostPreview from '@/components/post-preview/PostPreview'
 import { post } from '@/types'
 import groq from 'groq'
-import styles from './posts.module.scss'
+import styles from './posts.module.css'
 
 const fetchPosts = async () => {
 	const posts = await client.fetch(groq`

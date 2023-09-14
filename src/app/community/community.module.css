@@ -1,0 +1,5 @@
+.body {
+	/* 4.4 contrast */
+	background-color: var(--color-community-1);
+	color: var(--color-community-4);
+}

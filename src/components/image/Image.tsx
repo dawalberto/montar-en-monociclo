@@ -1,6 +1,6 @@
 import { valuesOfImg } from '@/utils'
 import NextImage from 'next/image'
-import styles from './image.module.scss'
+import styles from './image.module.css'
 
 type ImageOptions = {
 	source: any

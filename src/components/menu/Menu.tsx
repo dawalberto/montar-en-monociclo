@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import styles from './menu.module.scss'
+import { default as styles } from './menu.module.css'
 
 const navigationItems = [
 	{ label: 'Inicio', href: '/', className: 'home-item' },

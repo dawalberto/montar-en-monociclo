@@ -1,4 +1,4 @@
-import styles from './nextPosts.module.scss'
+import styles from './nextPosts.module.css'
 
 export default function NextPosts() {
 	return (

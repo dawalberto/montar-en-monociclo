@@ -1,0 +1,36 @@
+@import url('./palettes/home.css');
+@import url('./palettes/posts.css');
+@import url('./palettes/nextPosts.css');
+@import url('./palettes/community.css');
+
+:root {
+	--medium-media-query: 700px;
+	--large-media-query: 1120px;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/* TODO - Check the correct breakpoints and stydy what would be a good max width for each */
+
+.body {
+	margin: 0 auto;
+	min-height: 100svh;
+}
+
+/* Tablet and Smaller Desktop */
+@media (width >= 700px) {
+	.body {
+		max-width: 800px;
+	}
+}
+
+/* Large Desktop */
+@media (width >= 1120px) {
+	.body {
+		max-width: 900px;
+	}
+}

@@ -1,0 +1,9 @@
+.body {
+	/* 5.5 contrast */
+	background-color: var(--color-posts-1);
+	color: var(--color-posts-3);
+
+	/* 3 contrast
+	background-color: var(--color-posts-1);
+	color: var(--color-posts-0); */
+}

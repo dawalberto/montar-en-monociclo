@@ -1,8 +1,8 @@
 import { Menu } from '@/components'
+import '@/styles/global.css'
+import '@/styles/normalize.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import '@/styles/normalize.css'
-import '@/styles/global.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
